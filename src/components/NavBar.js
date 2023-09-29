@@ -7,7 +7,7 @@ const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <nav className="flex flex-col items-start sm:flex-row sm:justify-between sm:items-center w-full  bg-lime-600 sticky top-0">
+    <nav className="flex flex-col z-10 items-start shadow-lg sm:flex-row sm:justify-between sm:items-center w-full  bg-lime-600 sticky top-0">
       <Link to="/" className="font-bold text-2xl  text-white m-2">
         Hi-Scape
       </Link>

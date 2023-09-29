@@ -5,24 +5,48 @@ import logo from '../../assets/logo.png';
 function Home() {
   return (
     <>
-      <div className="flex items-center  bg-cover bg-no-repeat h-screen w-full bg-low-grass ">
-        <img
-          className="flex-col a top-1/3 mx-auto  bg-cover h-24 sm:h-36 md:h-60 drop-shadow-2xl animate-fade-up"
-          src={logo}
-          alt="logo"
-        />
+      <div className="flex items-center  justify-center bg-blend-color bg-cover bg-no-repeat h-96 md:max-h-screen bg-center w-full bg-low-grass ">
+        <div>
+          <img
+            className="flex-col a top-1/3 mx-auto  bg-cover h-24 sm:h-36 md:h-60 drop-shadow-2xl animate-fade-down"
+            src={logo}
+            alt="logo"
+          />
+          <div className="flex flex-row justify-center md:mt-1 items-center text-center animate-fade-up">
+            <h3 className="text-white sm:tracking-wider font-serif text-base mx-2 md:text-2xl sm:px-3 md:px-5">
+              HONESTY
+            </h3>
+            <span className="text-yellow-400 font-extrabold md:text-2xl">
+              •
+            </span>
+            <h3 className="text-white sm:tracking-wider font-serif text-base mx-2 md:text-2xl sm:px-3 md:px-5">
+              INTEGRTIY
+            </h3>
+            <span className="text-yellow-400 font-extrabold md:text-2xl">
+              •
+            </span>
+            <h3 className="text-white sm:tracking-wider font-serif text-base mx-2 md:text-2xl sm:px-3 md:px-5">
+              SERVICE
+            </h3>
+          </div>
+        </div>
       </div>
       <br />
-      <div>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+      <div className="flex flex-col items-center text-center font-nunito  mt-20">
+        <h2 className=" text-slate-800 font-bold text-3xl mb-10">
+          Quick Overview
+        </h2>
+        <div className="border-solid bg-slate-500 w-64 h-[2px]"></div>
+        <div className="mt-10 font-semibold ">
+          <p className="text-slate-700 mb-10">
+            A small business dedicated to its professional craft, we provide
+            exceptional landscaping through precise attention to detail.
+          </p>
+          <p className="text-slate-700">
+            Our years of hands-on experience enables us to tailor each outdoor
+            living space with superior care.{' '}
+          </p>
+        </div>
       </div>
       <br />
     </>
