@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'low-grass': "url('../src/assets/bg-hiscape.avif')",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animated')],
 };
