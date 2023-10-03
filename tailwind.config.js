@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'low-grass': "url('../src/assets/bg-hiscape.avif')",
+        hedges: "url('../src/assets/hedges.avif')",
       },
       fontFamily: {
         nunito: ['nunito', 'sans-serif'],
