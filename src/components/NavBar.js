@@ -27,13 +27,13 @@ const NavBar = () => {
             : 'sm:flex flex-col w-full sm:w-auto mb-1 sm:justify-end sm:flex-row text-white transform transition-all duration-500'
         }
       >
-        <li className="p-2 sm:mx-2 w-full text-center rounded-md hover:bg-neutral-400 transform transition-all duration-200">
+        <li className="p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200">
           <NavLink to="/about">About</NavLink>
         </li>
-        <li className="p-2 sm:mx-2 w-full text-center  rounded-md hover:bg-neutral-400 transform transition-all duration-200">
+        <li className="p-2 sm:mx-2 w-full text-center  rounded-md hover:bg-green-700 transform transition-all duration-200">
           <NavLink to="/services">Services</NavLink>
         </li>
-        <li className="p-2 sm:mx-2 w-full text-center rounded-md hover:bg-neutral-400 transform transition-all duration-200">
+        <li className="p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200">
           <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
