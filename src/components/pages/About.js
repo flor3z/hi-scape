@@ -24,10 +24,10 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center md:mx-auto md:flex md:flex-row md:justify-evenly md:flex-wrap text-center pt-20">
-        <div className="flex flex-col items-center md:w-96">
+      <div className="flex flex-col items-center md:mx-auto md:flex md:flex-row md:justify-evenly md:flex-wrap text-center pt-20 mb-10">
+        <div className="flex flex-col items-center w-80 md:w-96">
           <img
-            className="h-full w-full rounded-full shadow-2xl"
+            className="rounded-full shadow-2xl"
             alt="portrait"
             src={daniel}
           />
@@ -35,7 +35,7 @@ function About() {
             Owner & Founder | Daniel Gough
           </h4>
         </div>
-        <div className="flex flex-col items-start md:w-96 ">
+        <div className="flex flex-col text-left md:w-96 border-solid border-[2px] p-1 rounded-sm">
           <h3 className="font-serif text-xl font-bold p-4">The Beginning</h3>
           <p className=" text-lg font-extralight p-2 md:pl-4">
             A home grown company, HISCAPE started with a simple yet clear idea;
@@ -47,6 +47,46 @@ function About() {
             company, it is family, with members from many different places all
             rooted together. Through honest work, unmatched integrity and
             dedicated to excellent service, HISCAPE was born.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col items-center sm:flex-wrap justify-center h-full sm:flex-row sm:justify-evenly pb-14 md:pb-36 bg-white shadow-xl">
+        <div className="flex flex-col  justify-evenly p-2  h-72 w-80 md:h-80 md:w-80 mt-32 text-left bg-green-800 text-white">
+          <h4 className="mb-3 text-2xl font-nunito font-semibold tracking-wider">
+            HONESTY
+          </h4>
+          <p className="font-extralight text-lg">
+            We thrive off of honest work. Taking every opportuity to be as clear
+            and concise with each task granted to our team. Through this
+            methodology we leave each day with a smile on our face for the
+            effort we adhere to.
+          </p>
+        </div>
+        <div className="border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
+        {/* <div className="border-s-2 px-36 border-e-2 mt-10  border-gray-400"> */}
+        <div className="shadow-md flex flex-col  justify-evenly p-2 h-72 w-80 md:h-80 md:w-80 mt-32 text-left bg-green-100 text-black">
+          <h4 className="mb-3  text-2xl font-nunito font-semibold tracking-wider">
+            INTEGRITY
+          </h4>
+          <p className="font-extralight text-lg">
+            We thrive off of honest work. Taking every opportuity to be as clear
+            and concise with each task granted to our team. Through this
+            methodology we leave each day with a smile on our face for the
+            effort we adhere to.
+          </p>
+        </div>
+        {/* </div> */}
+
+        <div className="border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
+        <div className="flex flex-col  justify-evenly  p-2  h-72 w-80 md:h-80 md:w-80 mt-32  text-left bg-green-950 text-white">
+          <h4 className="mb-3 text-2xl font-nunito font-semibold tracking-wider">
+            SERVICE
+          </h4>
+          <p className="font-extralight text-lg">
+            We thrive off of honest work. Taking every opportuity to be as clear
+            and concise with each task granted to our team. Through this
+            methodology we leave each day with a smile on our face for the
+            effort we adhere to.
           </p>
         </div>
       </div>
