@@ -4,7 +4,7 @@ import daniel from '../../assets/Daniel.png';
 function About() {
   return (
     <>
-      <div className="flex flex-col items-center text-center bg-neutral-200">
+      <div className="flex flex-col items-center text-center bg-white">
         <h1 className="flex justify-center text-center text-5xl font-serif mt-28">
           IT'S SIMPLE.
         </h1>
@@ -24,18 +24,18 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center md:mx-auto md:flex md:flex-row md:justify-evenly md:flex-wrap text-center pt-20 mb-10">
+      <div className="bg-neutral-200 flex flex-col items-center md:mx-auto md:flex md:flex-row md:justify-evenly md:flex-wrap text-center pt-20 mb-10">
         <div className="flex flex-col items-center w-80 md:w-96">
           <img
-            className="rounded-full shadow-2xl"
+            className="rounded-full shadow-lg shadow-gray-800"
             alt="portrait"
             src={daniel}
           />
-          <h4 className="my-4 font-sans text-gray-500">
+          <h4 className="my-8 font-sans text-gray-500 text-lg">
             Owner & Founder | Daniel Gough
           </h4>
         </div>
-        <div className="flex flex-col text-left md:w-96 border-solid border-[2px] p-1 rounded-sm">
+        <div className="flex flex-col text-left md:w-96 mx-4 border-solid border-[2px] bg-white border-gray-500 mb-2 p-1 rounded-sm">
           <h3 className="font-serif text-xl font-bold p-4">The Beginning</h3>
           <p className=" text-lg font-extralight p-2 md:pl-4">
             A home grown company, HISCAPE started with a simple yet clear idea;
@@ -62,7 +62,7 @@ function About() {
             effort we adhere to.
           </p>
         </div>
-        <div className="border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
+        <div className="sm:hidden md:block border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
         {/* <div className="border-s-2 px-36 border-e-2 mt-10  border-gray-400"> */}
         <div className="shadow-md flex flex-col  justify-evenly p-2 h-72 w-80 md:h-80 md:w-80 mt-32 text-left bg-green-100 text-black">
           <h4 className="mb-3  text-2xl font-nunito font-semibold tracking-wider">
@@ -77,7 +77,7 @@ function About() {
         </div>
         {/* </div> */}
 
-        <div className="border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
+        <div className="sm:hidden md:block border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
         <div className="flex flex-col  justify-evenly  p-2  h-72 w-80 md:h-80 md:w-80 mt-32  text-left bg-green-950 text-white">
           <h4 className="mb-3 text-2xl font-nunito font-semibold tracking-wider">
             SERVICE
