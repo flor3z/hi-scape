@@ -8,7 +8,7 @@ import tree from '../../assets/photo-1547650221-c675287aec3b.avif';
 function Services() {
   return (
     <>
-      <div className=" flex flex-col items-center justify-center text-center h-96 w-full bg-cover bg-no-repeat bg-center bg-blend-overlay bg-gray-700 bg-lawnmower">
+      <div className="flex flex-col items-center justify-center text-center h-96 w-full bg-cover bg-no-repeat bg-center bg-blend-overlay bg-gray-700 bg-lawnmower">
         <h1 className="tracking-wider font-serif text-6xl md:text-8xl text-white">
           Our Services
         </h1>

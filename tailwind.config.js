@@ -8,6 +8,7 @@ module.exports = {
         'low-grass': "url('../src/assets/bg-hiscape.avif')",
         hedges: "url('../src/assets/hedges.avif')",
         lawnmower: "url('../src/assets/lawn-mower.png')",
+        contactcell: "url('../src/assets/contact-cell.jpg')",
       },
       fontFamily: {
         nunito: ['nunito', 'sans-serif'],
