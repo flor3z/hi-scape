@@ -4,6 +4,7 @@ import yard from '../../assets/yard.jpg';
 import turf from '../../assets/photo-1628340981113-fe1949fe5cc0.avif';
 import hedges from '../../assets/hedges.avif';
 import tree from '../../assets/photo-1547650221-c675287aec3b.avif';
+import snow from '../../assets/snow-blower.avif';
 
 function Services() {
   return (
@@ -54,9 +55,9 @@ function Services() {
 
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
                   <p className="bg-gray-100 p-2 rounded-sm shadow-md leading-5">
-                    Establishing a fresh bundle of mature grass over a lawn area
-                    that requires upkeep. Sodding is a very quick and reliable
-                    form of revitilizing your yard space.
+                    Laying fresh grass, typically on top of triple mix soil.
+                    Sodding is a very quick and reliable form of revitilizing
+                    your yard space.
                   </p>
                 </footer>
               </article>
@@ -103,7 +104,7 @@ function Services() {
                   />
                   <div className="absolute h-80 w-full bg-black/30 flex items-center justify-center bottom-0 lg:-bottom-10 lg:group-hover:bottom-0 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300">
                     <h2 className="font-serif tracking-wider text-3xl text-white">
-                      Interlocking Turf
+                      Installing Turf
                     </h2>
                   </div>
                 </div>
@@ -124,8 +125,7 @@ function Services() {
               </article>
             </div>
 
-            {/* <div className="flex justify-center mx-auto"> */}
-            <div className="my-1 px-1 mx-auto lg:-mr-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -155,8 +155,8 @@ function Services() {
                 </footer>
               </article>
             </div>
-
-            <div className="my-1 px-1 mx-auto lg:-ml-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            {/* my-1 px-1 mx-auto lg:-ml-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group -- styles for odd number of cards */}
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
               <article className="overflow-hidden rounded-lg shadow-lg ">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -166,7 +166,7 @@ function Services() {
                   />
                   <div className="absolute h-80 w-full bg-black/30 flex items-center justify-center bottom-0 lg:-bottom-10 lg:group-hover:bottom-0 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300">
                     <h2 className="font-serif tracking-wider text-3xl text-white">
-                      Tree Cutting
+                      Tree Removal
                     </h2>
                   </div>
                 </div>
@@ -186,7 +186,36 @@ function Services() {
                 </footer>
               </article>
             </div>
-            {/* </div> */}
+
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+              <article className="overflow-hidden rounded-lg shadow-lg ">
+                <div className="relative h-80 overflow-hidden">
+                  <img
+                    alt="Placeholder"
+                    className="block object-cover object-center h-80 w-full"
+                    src={snow}
+                  />
+                  <div className="absolute h-80 w-full bg-black/30 flex items-center justify-center bottom-0 lg:-bottom-10 lg:group-hover:bottom-0 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300">
+                    <h2 className="font-serif tracking-wider text-3xl text-white">
+                      Snow Removal
+                    </h2>
+                  </div>
+                </div>
+
+                <header className="flex items-center text-left leading-tight p-2 md:p-4">
+                  <h1 className="text-2xl font-bold font-mono text-black  underline decoration-2 decoration-green-600 underline-offset-8">
+                    Snow
+                  </h1>
+                </header>
+
+                <footer className="flex items-center justify-between leading-none p-2 md:p-4">
+                  <p className="bg-gray-100 p-2 rounded-sm shadow-md leading-5">
+                    Snow can pile up quickly in the winter.Give us a call and we
+                    can free your driveway of snow safely with our snow-blowers.
+                  </p>
+                </footer>
+              </article>
+            </div>
 
             {/* <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
               <article className="overflow-hidden rounded-lg shadow-lg">

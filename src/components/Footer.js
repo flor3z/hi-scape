@@ -28,10 +28,19 @@ function Footer() {
             Check out our content page to learn how to get in touch with us
           </h4>
         </div>
-        <div className="flex justify-center text-center text-white pt-14 md:pt-7 text-3xl md:text-4xl ">
-          <FaInstagram className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:scale-110 transform translate duration-200 ease-in" />
-          <FaPhoneFlip className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:scale-110 transform translate duration-200 ease-in" />
-          <FaEnvelope className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:scale-110 transform translate duration-200 ease-in" />
+        <div className="flex justify-evenly text-center text-white pt-14 md:pt-7 text-3xl md:text-4xl flex-wrap">
+          <div className="flex flex-col items-center hover:scale-110 transform translate duration-200 ease-in">
+            <FaInstagram className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:text-green-600 transform translate duration-200 ease-in" />
+            <p className="text-lg text-neutral-700">@hiscape.gta</p>
+          </div>
+          <div className="flex flex-col items-center hover:scale-110 transform translate duration-200 ease-in">
+            <FaPhoneFlip className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:text-green-600 transform translate duration-200 ease-in" />
+            <p className="text-lg text-neutral-700">647-***-0068</p>
+          </div>
+          <div className="flex flex-col items-center hover:scale-110 transform translate duration-200 ease-in">
+            <FaEnvelope className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:text-green-600 transform translate duration-200 ease-in" />
+            <p className="text-lg text-neutral-700">hiscape@gmail.com</p>
+          </div>
           {/* <FaYoutube className="mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:scale-110 transform translate duration-200 ease-in" /> */}
         </div>
         {/* <div>

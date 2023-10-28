@@ -22,7 +22,7 @@ function Contact() {
           </h1>
         </div>
         <div className="border-solid bg-slate-500 w-60 h-[2px] mt-2 my-4"></div>
-        <p className="text-center">
+        <p className="text-center text-md md:text-lg">
           Conveniently located between two major high-ways, HISCAPE can easily
           travel to job sites within central Mississuaga and the surrouding GTA.
         </p>
