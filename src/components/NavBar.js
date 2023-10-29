@@ -6,6 +6,10 @@ import { useState } from 'react';
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
+  // continue trying to solve active and hover classes for Navlink//
+  const activeLink = 'p-2 sm:mx-2 w-full text-center rounded-md bg-green-800';
+  const normalLink =
+    'p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200';
 
   return (
     <nav className="flex flex-col z-10 items-start shadow-lg sm:flex-row sm:justify-between sm:items-center w-full transform transition-all duration-500  bg-green-600 sticky top-0">
@@ -27,14 +31,30 @@ const NavBar = () => {
             : 'sm:flex flex-col w-full sm:w-auto mb-1 sm:justify-end sm:flex-row text-white transform transition-all duration-500'
         }
       >
-        <li className="p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200">
-          <NavLink to="/about">About</NavLink>
+        <li className={normalLink}>
+          <NavLink
+            className={({ isActive }) => (isActive ? activeLink : '')}
+            to="/about"
+          >
+            About
+          </NavLink>
         </li>
-        <li className="p-2 sm:mx-2 w-full text-center  rounded-md hover:bg-green-700 transform transition-all duration-200">
-          <NavLink to="/services">Services</NavLink>
+
+        <li className={normalLink}>
+          <NavLink
+            className={({ isActive }) => (isActive ? activeLink : '')}
+            to="/services"
+          >
+            Services
+          </NavLink>
         </li>
-        <li className="p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200">
-          <NavLink to="/contact">Contact</NavLink>
+        <li className={normalLink}>
+          <NavLink
+            className={({ isActive }) => (isActive ? activeLink : '')}
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
     </nav>

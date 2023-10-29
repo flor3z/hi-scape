@@ -4,8 +4,6 @@ import { AiOutlineWechat } from 'react-icons/ai';
 
 import { FaPersonDigging, FaCheck } from 'react-icons/fa6';
 
-// continue with relative path for bg iamge
-
 function Home() {
   return (
     <>
@@ -52,45 +50,45 @@ function Home() {
         </div>
       </div>
       <div className="flex flex-col items-center sm:flex-wrap justify-center h-full sm:flex-row sm:justify-evenly pb-14 md:pb-36 bg-blend-overlay bg-gray-700 bg-cover bg-no-repeat  bg-center w-full bg-hedges">
-        <div className="flex flex-col items-center justify-evenly bg-white rounded-md shadow-lg h-56 w-80 md:h-80 md:w-80 mt-32 text-center transform transition duration-300  p-2">
+        <div className="flex flex-col items-center justify-evenly bg-white rounded-md shadow-lg h-64 w-80 md:h-96 md:w-80 mt-32 text-center transform transition duration-300  p-2">
           <div className="border-green-600 rounded-full border-solid border-[4px] p-3">
             <AiOutlineWechat className="text-green-600 h-6 w-6 md:h-12 md:w-12" />
           </div>
-          <h4 className="font-serif text-md text-slate-600 md:text-xl">
+          <h4 className="font-serif text-md text-slate-600 md:text-2xl">
             1. Consultation & Appraisal
           </h4>
-          <p className="font-serif text-slate-700 text-sm">
+          <p className="font-serif text-sm md:text-base text-slate-700 p-2">
             A phone conversation will provide us with detailed information
             regarding your specific request. Once an appraisal date is set,
             we'll visit your location to discuss and finalize pricing.
           </p>
         </div>
-        <div className="flex flex-col items-center justify-evenly bg-white rounded-md shadow-lg h-56 w-80 md:h-80 md:w-80 mt-32 text-center p-2">
+        <div className="flex flex-col items-center justify-evenly bg-white rounded-md shadow-lg h-64 w-80 md:h-96 md:w-80 mt-32 text-center p-2">
           <div className="border-green-600 rounded-full border-solid border-[4px] p-3">
             <FaPersonDigging className="text-green-600 h-6 w-6 md:h-12 md:w-12 " />
           </div>
-          <h4 className="font-serif text-md text-slate-600 md:text-xl">
+          <h4 className="font-serif text-md text-slate-600 md:text-2xl">
             2. Layout & Development
           </h4>
-          <p className="font-serif text-slate-700 text-sm">
+          <p className="font-serif text-sm md:text-base text-slate-700 p-2">
             Confirmation of the final design will allow us to order the best
             products to match your build requirements. Upon product delivery,
             the project will commence alongside effective communication leading
             up to completion.
           </p>
         </div>
-        <div className="flex flex-col items-center justify-evenly bg-white rounded-md shadow-lg h-56 w-80 md:h-80 md:w-80 mt-32 text-center transform transition duration-300  p-2">
+        <div className="flex flex-col items-center justify-evenly bg-white rounded-md shadow-lg h-64 w-80 md:h-96 md:w-80 mt-32 text-center transform transition duration-300  p-2">
           <div className="border-green-600 rounded-full border-solid border-[4px] p-3">
             <FaCheck className="text-green-600 h-6 w-6 md:h-12 md:w-12" />
           </div>
 
-          <h4 className="font-serif text-md text-slate-600 md:text-xl">
-            3. Celebrate Your New Space
+          <h4 className="font-serif text-md text-slate-600 md:text-2xl">
+            3. Enjoy Your New Space
           </h4>
-          <p className="font-serif text-slate-700 text-sm">
+          <p className="font-serif text-sm md:text-base text-slate-700 p-2">
             With an outdoor space that has finally brought you peace of mind,
             it's time to start enjoying it. Congratulations, now get back to
-            enjoying the outdoors with family and friends!
+            embracing the outdoors with family and friends!
           </p>
         </div>
       </div>
