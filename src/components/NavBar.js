@@ -7,7 +7,7 @@ import { useState } from 'react';
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
   // continue trying to solve active and hover classes for Navlink//
-  const activeLink = 'p-2 sm:mx-2 w-full text-center rounded-md bg-green-800';
+  const activeLink = 'bg-green-800 hover:bg-green-800';
   const normalLink =
     'p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200';
 
@@ -27,35 +27,51 @@ const NavBar = () => {
       <ul
         className={
           !openNav
-            ? 'sm:flex flex-col w-full sm:w-auto mb-1 sm:justify-end sm:flex-row text-white transform transition-all duration-500 hidden'
-            : 'sm:flex flex-col w-full sm:w-auto mb-1 sm:justify-end sm:flex-row text-white transform transition-all duration-500'
+            ? 'sm:flex flex-col w-full sm:w-auto sm:justify-end sm:flex-row text-white transform transition-all duration-500 hidden'
+            : 'sm:flex flex-col w-full sm:w-auto sm:justify-end sm:flex-row text-white transform transition-all duration-500'
         }
       >
-        <li className={normalLink}>
-          <NavLink
-            className={({ isActive }) => (isActive ? activeLink : '')}
-            to="/about"
-          >
-            About
-          </NavLink>
-        </li>
+        {/* <li className="w-full text-center"> */}
+        <NavLink
+          // className={({ isActive }) => (isActive ? activeLink : '')}
+          className={({ isActive }) =>
+            [
+              isActive ? activeLink : '',
+              'p-2 sm:mx-2 w-full text-center rounded-md flex justify-center hover:bg-green-700 transform transition-all duration-200',
+            ].join(' ')
+          }
+          to="/about"
+        >
+          About
+        </NavLink>
+        {/* </li> */}
 
-        <li className={normalLink}>
-          <NavLink
-            className={({ isActive }) => (isActive ? activeLink : '')}
-            to="/services"
-          >
-            Services
-          </NavLink>
-        </li>
-        <li className={normalLink}>
-          <NavLink
-            className={({ isActive }) => (isActive ? activeLink : '')}
-            to="/contact"
-          >
-            Contact
-          </NavLink>
-        </li>
+        {/* <li className={normalLink}> */}
+        <NavLink
+          className={({ isActive }) =>
+            [
+              isActive ? activeLink : '',
+              'p-2 sm:mx-2 w-full text-center rounded-md flex justify-center hover:bg-green-700 transform transition-all duration-200',
+            ].join(' ')
+          }
+          to="/services2"
+        >
+          Services
+        </NavLink>
+        {/* </li> */}
+        {/* <li className={normalLink}> */}
+        <NavLink
+          className={({ isActive }) =>
+            [
+              isActive ? activeLink : '',
+              'p-2 sm:mx-2 w-full text-center rounded-md flex justify-center hover:bg-green-700 transform transition-all duration-200',
+            ].join(' ')
+          }
+          to="/contact"
+        >
+          Contact
+        </NavLink>
+        {/* </li> */}
       </ul>
     </nav>
   );

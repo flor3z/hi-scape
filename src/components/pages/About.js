@@ -62,8 +62,7 @@ function About() {
             effort we adhere to.
           </p>
         </div>
-        <div className="sm:hidden md:block border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
-        {/* <div className="border-s-2 px-36 border-e-2 mt-10  border-gray-400"> */}
+
         <div className="shadow-md shadow-gray-400 rounded-sm flex flex-col  justify-evenly p-6 h-72 w-80 md:h-80 md:w-80 mt-32 text-left bg-green-100 text-black">
           <h4 className="mb-3  text-2xl font-sans font-semibold tracking-wider">
             INTEGRITY
@@ -75,9 +74,7 @@ function About() {
             effort we adhere to.
           </p>
         </div>
-        {/* </div> */}
 
-        <div className="sm:hidden md:block border-solid bg-gray-400 w-60 h-[2px] sm:w-[2px] mt-28 sm:mt-28 sm:h-60"></div>
         <div className="shadow-md shadow-gray-700 rounded-sm flex flex-col  justify-evenly  p-6  h-72 w-80 md:h-80 md:w-80 mt-32  text-left bg-green-950 text-white">
           <h4 className="mb-3 text-2xl font-sans font-semibold tracking-wider">
             SERVICE

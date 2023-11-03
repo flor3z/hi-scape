@@ -36,25 +36,25 @@ function Contact() {
           <p className="font-light py-2">
             Let's explore how HISCAPE can work for you.
           </p>
-          <div className="bg-neutral-200 p-6 rounded-sm shadow-md text-left">
+          <div className="bg-neutral-200 p-4 m-4 md:m-0 rounded-sm shadow-md text-left">
             <div className="flex flex-row justify-center">
-              <FaCheck className="text-4xl text-green-600" />
-              <p className="m-2">
+              <FaCheck className="text-4xl text-green-600 w-6" />
+              <p className="p-2 text-base w-fit">
                 While away from your property, our team can visit for routine
                 check-up's and maintenance.
               </p>
             </div>
 
             <div className="flex flex-row  border-opacity-80 border-t-2 border-gray-300 border-b-2">
-              <FaCheck className="text-4xl text-green-600" />
-              <p className="m-2">
+              <FaCheck className="text-4xl text-green-600 w-6" />
+              <p className="p-2 text-base w-fit">
                 Give us a shout if you're seeking advice for yard improvements,
                 or better yet an on-site visit for more accuracy.
               </p>
             </div>
             <div className="flex flex-row justify-between">
-              <FaCheck className="text-4xl text-green-600" />
-              <p className="m-2">
+              <FaCheck className="text-4xl text-green-600 w-6" />
+              <p className="p-2 text-base w-fit">
                 We want to ensure customers are satisfied with each project.
                 Give us a call at your earliest convenience with any questions
                 or concerns.
@@ -62,7 +62,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="max-w-md overflow-hidden rounded-lg shadow-md">
+        <div className="max-w-md overflow-hidden rounded-lg shadow-md m-4 md:m-0">
           <img
             className="object-cover hover:scale-150 transform transition-all duration-300 ease-out"
             src={location}
