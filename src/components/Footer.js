@@ -28,18 +28,18 @@ function Footer() {
             Check out our content page to learn how to get in touch with us
           </h4>
         </div>
-        <div className="flex justify-between md:justify-evenly text-center text-white pt-14 md:pt-9 flex-wrap ">
-          <div className="flex flex-col items-center hover:font-bold hover:scale-105 transform translate duration-200 ease-in mx-2">
+        <div className="flex justify-between md:justify-evenly text-center text-white pt-14 md:pt-9  ">
+          <div className="flex flex-col items-center transform translate duration-200 ease-in mx-2 ">
             <FaInstagram className="text-4xl mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:bg-green-600 transform translate duration-200 ease-in" />
             <p className="text-base text-neutral-700">@hiscape.gta</p>
           </div>
-          <div className="flex flex-col items-center hover:font-bold hover:scale-105 transform translate duration-200 ease-in mx-2">
+          <div className="flex flex-col items-center transform translate duration-200 ease-in mx-2 ">
             <FaPhoneFlip className="text-4xl mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:bg-green-600 transform translate duration-200 ease-in" />
             <p className="text-base text-neutral-700">647-***-0068</p>
           </div>
-          <div className="flex flex-col items-center hover:font-bold hover:scale-105 transform translate duration-200 ease-in mx-2">
+          <div className="flex flex-col items-center transform translate duration-200 ease-in mx-2">
             <FaEnvelope className="text-4xl mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:bg-green-600 transform translate duration-200 ease-in" />
-            <p className="text-base text-neutral-700 ">hiscape@gmail.com</p>
+            <p className="text-base text-neutral-700">hiscape@gmail.com</p>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ function About() {
             Owner & Founder | Daniel Gough
           </h4>
         </div>
-        <div className="flex flex-col text-left md:w-96 mx-4 border-solid border-[2px] bg-white border-gray-500 mb-2 p-1 rounded-sm">
+        <div className="flex flex-col text-left md:w-96 mx-4 border-solid  bg-white mb-2 p-1 rounded-md shadow-md">
           <h3 className="font-serif text-xl font-bold p-4">The Beginning</h3>
           <p className="font-serif text-lg font-light p-2 md:pl-4">
             A home grown company, HISCAPE started with a simple yet clear idea;
