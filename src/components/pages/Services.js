@@ -9,12 +9,12 @@ import snow from '../../assets/snow-blower.avif';
 function Services() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center text-center h-96 w-full bg-cover bg-no-repeat bg-center bg-blend-overlay bg-gray-700 bg-lawnmower">
-        <h1 className="tracking-wider font-serif text-6xl md:text-8xl text-white">
-          Our Services
-        </h1>
-      </div>
-      <div>
+      <section>
+        <div className="flex flex-col items-center justify-center text-center h-96 w-full bg-cover bg-no-repeat bg-center bg-blend-overlay bg-gray-700 bg-lawnmower">
+          <h1 className="tracking-wider font-serif text-6xl md:text-8xl text-white">
+            Our Services
+          </h1>
+        </div>
         <div className="flex flex-col items-center text-center py-10 px-3 text-lg md:text-xl">
           <h1 className="py-5 font-serif text-2xl md:text-4xl">
             What working with HISCAPE means for you!
@@ -30,9 +30,9 @@ function Services() {
             act promptly to undue or correct any obstacle.
           </p>
         </div>
-        <div className="container my-8 mx-auto px-4 md:px-12">
-          <div className="flex flex-wrap">
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 object-contain group">
+        <div className="mx-auto w-full px-1 py-8 md:px-10 md:py-12">
+          <div className=" grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 rounded-2xl bg-white p-8 group">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -53,8 +53,8 @@ function Services() {
                   </h1>
                 </header>
 
-                <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                  <p className="bg-gray-100 p-2 rounded-sm shadow-md leading-5">
+                <footer className="flex items-center justify-between p-2 md:p-4">
+                  <p className="bg-gray-100 rounded-sm p-2 shadow-md leading-5">
                     Laying fresh grass, typically on top of triple mix soil.
                     Sodding is a very quick and reliable form of revitilizing
                     your yard space.
@@ -63,7 +63,7 @@ function Services() {
               </article>
             </div>
 
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            <div className="grid grid-cols-1 gap-6 rounded-2xl bg-white p-8 group">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -94,7 +94,7 @@ function Services() {
               </article>
             </div>
 
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            <div className="grid grid-cols-1 gap-6 rounded-2xl bg-white p-8 group">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -124,8 +124,7 @@ function Services() {
                 </footer>
               </article>
             </div>
-
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            <div className="grid grid-cols-1 gap-6 rounded-2xl bg-white p-8 group">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -134,7 +133,7 @@ function Services() {
                     src={hedges}
                   />
                   <div className="absolute h-80 w-full bg-black/30 flex items-center justify-center bottom-0 lg:-bottom-10 lg:group-hover:bottom-0 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300">
-                    <h2 className="font-serif tracking-wider text-3xl text-white">
+                    <h2 className="font-serif tracking-wider text-3xl text-white text-center">
                       Hedge Trimming
                     </h2>
                   </div>
@@ -155,8 +154,7 @@ function Services() {
                 </footer>
               </article>
             </div>
-            {/* my-1 px-1 mx-auto lg:-ml-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group -- styles for odd number of cards */}
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            <div className="grid grid-cols-1 gap-6 rounded-2xl bg-white p-8 group">
               <article className="overflow-hidden rounded-lg shadow-lg ">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -186,8 +184,7 @@ function Services() {
                 </footer>
               </article>
             </div>
-
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 group">
+            <div className="grid grid-cols-1 gap-6 rounded-2xl bg-white p-8 group">
               <article className="overflow-hidden rounded-lg shadow-lg ">
                 <div className="relative h-80 overflow-hidden">
                   <img
@@ -216,54 +213,9 @@ function Services() {
                 </footer>
               </article>
             </div>
-
-            {/* <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-              <article className="overflow-hidden rounded-lg shadow-lg">
-                <a href="#">
-                  <img
-                    alt="Placeholder"
-                    className="block h-auto w-full"
-                    src="https://picsum.photos/600/400/?random"
-                  />
-                </a>
-
-                <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a
-                      className="no-underline hover:underline text-black"
-                      href="#"
-                    >
-                      Article Title
-                    </a>
-                  </h1>
-                  <p className="text-grey-darker text-sm">11/1/19</p>
-                </header>
-
-                <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                  <a
-                    className="flex items-center no-underline hover:underline text-black"
-                    href="#"
-                  >
-                    <img
-                      alt="Placeholder"
-                      className="block rounded-full"
-                      src="https://picsum.photos/32/32/?random"
-                    />
-                    <p className="ml-2 text-sm">Author Name</p>
-                  </a>
-                  <a
-                    className="no-underline text-grey-darker hover:text-red-dark"
-                    href="#"
-                  >
-                    <span className="hidden">Like</span>
-                    <i className="fa fa-heart"></i>
-                  </a>
-                </footer>
-              </article>
-            </div> */}
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -68,10 +68,10 @@ function About() {
             INTEGRITY
           </h4>
           <p className="font-sans text-lg">
-            We thrive off of honest work. Taking every opportuity to be as clear
-            and concise with each task granted to our team. Through this
-            methodology we leave each day with a smile on our face for the
-            effort we adhere to.
+            We conduct ourselves respectfully in regards to our clients and
+            thier community. We understand that trust is a firm foundation for
+            business relationships and we strive to build upon that with every
+            interaction.
           </p>
         </div>
 
@@ -80,10 +80,9 @@ function About() {
             SERVICE
           </h4>
           <p className="font-sans text-lg">
-            We thrive off of honest work. Taking every opportuity to be as clear
-            and concise with each task granted to our team. Through this
-            methodology we leave each day with a smile on our face for the
-            effort we adhere to.
+            We take the time to communicate with our clients and listen to their
+            specifc needs. We know that being exceptional with details starts
+            with understanding our clients. Great service is in the details!
           </p>
         </div>
       </div>

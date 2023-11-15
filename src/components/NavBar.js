@@ -6,10 +6,9 @@ import { useState } from 'react';
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(false);
-  // continue trying to solve active and hover classes for Navlink//
   const activeLink = 'bg-green-800 hover:bg-green-800';
-  const normalLink =
-    'p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200';
+  // const normalLink =
+  //   'p-2 sm:mx-2 w-full text-center rounded-md hover:bg-green-700 transform transition-all duration-200';
 
   return (
     <nav className="flex flex-col z-10 items-start shadow-lg sm:flex-row sm:justify-between sm:items-center w-full transform transition-all duration-500  bg-green-600 sticky top-0">
@@ -54,7 +53,7 @@ const NavBar = () => {
               'p-2 sm:mx-2 w-full text-center rounded-md flex justify-center hover:bg-green-700 transform transition-all duration-200',
             ].join(' ')
           }
-          to="/services2"
+          to="/services"
         >
           Services
         </NavLink>
