@@ -207,8 +207,9 @@ function Services() {
 
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
                   <p className="bg-gray-100 p-2 rounded-sm shadow-md leading-5">
-                    Snow can pile up quickly in the winter.Give us a call and we
-                    can free your driveway of snow safely with our snow-blowers.
+                    Snow can pile up quickly in the winter. Give us a call and
+                    we can free your driveway of snow safely with our
+                    snow-blowers.
                   </p>
                 </footer>
               </article>

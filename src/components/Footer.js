@@ -38,7 +38,7 @@ function Footer() {
           <div className="flex flex-col items-center transform translate duration-200 ease-in mx-2 ">
             <FaPhoneFlip className="text-3xl sm:text-4xl mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:bg-green-600 transform translate duration-200 ease-in" />
             <p className="text-sm sm:text-base text-neutral-700">
-              647-***-0068
+              647-226-0068
             </p>
           </div>
           <div className="flex flex-col items-center transform translate duration-200 ease-in mx-2">
@@ -48,6 +48,9 @@ function Footer() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col justify-center items-center text-center text-white  tracking-wider h-10 bg-neutral-700">
+        © All Rights Reserved | Established 2022
       </div>
     </>
   );
