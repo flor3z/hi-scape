@@ -13,7 +13,7 @@ function About() {
           <p className="my-6 mx-4 ">
             Our mission is to reinvent landscaping services by providing
             exceptional attention to detail and effective communication with our
-            clientle.
+            clientele.
           </p>
           <p className="my-8 mx-4 ">
             By following our intergrated values;
@@ -69,7 +69,7 @@ function About() {
           </h4>
           <p className="font-sans text-lg">
             We conduct ourselves respectfully in regards to our clients and
-            thier community. We understand that trust is a firm foundation for
+            their community. We understand that trust is a firm foundation for
             business relationships and we strive to build upon that with every
             interaction.
           </p>

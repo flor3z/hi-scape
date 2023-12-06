@@ -31,9 +31,7 @@ function Footer() {
         <div className="flex justify-evenly text-center text-white pt-14 md:pt-9 flex-wrap">
           <div className="flex flex-col items-center transform translate duration-200 ease-in mx-4 sm:mx-0">
             <FaInstagram className="text-3xl sm:text-4xl mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:bg-green-600 transform translate duration-200 ease-in" />
-            <p className="text-sm sm:text-base text-neutral-700">
-              @hiscape.gta
-            </p>
+            <p className="text-sm sm:text-base text-neutral-700">@hiscapegta</p>
           </div>
           <div className="flex flex-col items-center transform translate duration-200 ease-in mx-4 sm:mx-0">
             <FaPhoneFlip className="text-3xl sm:text-4xl mx-4 md:mx-14 bg-neutral-500 p-1 rounded-md hover:bg-green-600 transform translate duration-200 ease-in" />
