@@ -12,7 +12,7 @@ const NavBar = () => {
     <nav className="flex flex-col z-10 items-start shadow-lg sm:flex-row sm:justify-between sm:items-center w-full transform transition-all duration-500  bg-green-600 sticky top-0">
       <Link to="/" className="flex font-serif text-2xl  text-white m-2">
         <FaCrown className="text-yellow-400 text-3xl mr-2" />
-        HISCAPE
+        HISARBOR
       </Link>
 
       <div
