@@ -16,7 +16,7 @@ function Home() {
           />
           <div className="flex flex-row justify-center md:mt-1 items-center text-center animate-fade-up">
             <h3 className="text-white sm:tracking-wider font-serif text-base mx-2 md:text-2xl sm:px-3 md:px-5">
-              HONESTY
+              HONEST
             </h3>
             <span className="text-yellow-400 font-extrabold md:text-2xl">
               •
